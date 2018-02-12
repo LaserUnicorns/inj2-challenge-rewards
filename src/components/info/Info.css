@@ -1,0 +1,19 @@
+.Info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: .5em;
+    /* justify-content: space-between; */
+}
+
+.Info .Info-label {
+    text-align: right;
+    margin-right: 1rem;
+    /* color: rgba(0, 0, 0, .7); */
+    font-weight: 300;
+    min-width: 146px;
+}
+
+.Info .Info-value {
+    white-space: nowrap;
+}

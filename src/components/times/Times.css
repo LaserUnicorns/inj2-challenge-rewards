@@ -1,0 +1,35 @@
+.Times {
+    display: flex;
+    flex-direction: row;
+}
+
+.Times-option {
+    display: block;
+    background: #eee;
+    padding: .3em .8em;
+    transition: background .3s;
+    border: unset;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.Times .Times-option:first-child {
+    border-top-left-radius: .5em;
+    border-bottom-left-radius: .5em;
+    border-left: 1px solid #ccc;
+}
+
+.Times .Times-option:last-child {
+    border-top-right-radius: .5em;
+    border-bottom-right-radius: .5em;
+    border-right: 1px solid #ccc;
+}
+
+.Times-option:focus {
+    background: #bbb;
+    outline: unset;
+}
+
+.Times-option_active {
+    background: #ccc;
+}
